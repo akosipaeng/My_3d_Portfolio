@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -23,6 +20,21 @@ import {
   jobit,
   tripguide,
   threejs,
+  webresearch,
+  dataanalyst,
+  dataentry,
+  graphicdesign,
+  admin,
+  contentmod,
+  ecommerce,
+  taskus,
+  freelancework,
+  photoshop,
+  tableau,
+  excel,
+  sushi,
+  promptopia,
+  capstoneproject,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +58,32 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Web Research",
+    icon: webresearch,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Data Analyst",
+    icon: dataanalyst,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Data Entry",
+    icon: dataentry,
+  },
+  {
+    title: "Graphic Design",
+    icon: graphicdesign,
+  },
+  {
+    title: "Admin Task",
+    icon: admin,
+  },
+  {
+    title: "Content Moderator",
+    icon: contentmod,
+  },
+  {
+    title: "Seller Central Management",
+    icon: ecommerce,
   },
 ];
 
@@ -80,10 +108,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -96,75 +121,71 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
+
   {
-    name: "figma",
-    icon: figma,
+    name: "photoshop",
+    icon: photoshop,
   },
+
   {
-    name: "docker",
-    icon: docker,
+    name: "tableau",
+    icon: tableau,
+  },
+
+  {
+    name: "excel",
+    icon: excel,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Data Encoder",
+    company_name: "TaskUs",
+    icon: taskus,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2018 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managing business location-related information on multiple directories.",
+      "Maintaining accurate business data information - Business hours, products and services, etc.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Content Moderator",
+    company_name: "TaskUs",
+    icon: taskus,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Filtering private information and the like.",
+      "Ensuring that the information displayed to the user is instructive and safe.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Wedding Website - RSVP",
+    company_name: "Freelance - Gig",
+    icon: freelancework,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Create a visually appealing and user-friendly wedding website with a focus on the RSVP feature.",
+      "Implement a robust RSVP system allowing guests to easily confirm their attendance.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Wedding Invitation - Design",
+    company_name: "Freelance - Gig",
+    icon: freelancework,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop unique and visually stunning wedding invitation designs that align with the couple's vision and theme.",
+      "Use graphic design software and tools to create personalized and aesthetically pleasing invitations",
     ],
   },
 ];
@@ -198,58 +219,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SushiMan - JSM",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Sushiman is a straightforward landing page project for a sushi business. Using solely HTML and CSS, with an emphasis on developing a visually appealing design and applying a well-structured layout.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sushi,
+    source_code_link: "https://github.com/akosipaeng/sushi",
+    app_link: "https://sushi-jsm.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Promptopia - JSM",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Promptopia is an innovative open-source AI prompting platform, revolutionizing creative exploration by facilitating the discovery, creation, and sharing of prompts in the modern digital landscape.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
         name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://github.com/akosipaeng/project_promptopiaJSM",
+    app_link: "https://project-promptopia-jsm.vercel.app/",
+  },
+  {
+    name: "Soap Online Store",
+    description:
+      "As the culmination of a web development boot camp, my capstone project showcases proficiency in React.js, frontend, and backend development, demonstrating a understanding of web development.",
+    tags: [
+      {
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "node",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +280,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: capstoneproject,
+    source_code_link:
+      "https://gitlab.com/b282-vasquez/capstone/-/tree/master/vasquez-capstone-3/capstone-3-project",
+    app_link: "https://capstone-3-vasquez.vercel.app/",
   },
 ];
 

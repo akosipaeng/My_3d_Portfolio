@@ -44,11 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a dynamic web developer with hands-on experience, augmented by a
+        successful completion of a rigorous Bootcamp. Drawing from my background
+        as a virtual assistant, I bring adaptability, attention to detail, and
+        effective communication to web development projects. I am poised to
+        contribute my skills and virtual assistant expertise to innovative
+        endeavors.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
