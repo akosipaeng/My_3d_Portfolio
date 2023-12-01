@@ -191,22 +191,24 @@ const experiences = [
 ];
 
 const testimonials = [
-  // {
-  //   testimonial:
-  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //   name: "Sara Lee",
-  //   designation: "CFO",
-  //   company: "Acme Co",
-  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-  // },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
+  {
+    testimonial:
+      "Having instructed this web development student at the Zuitt Coding Bootcamp, I confidently endorse him for his commendable dedication, exceptional work ethic, and impressive skills, showcasing a remarkable commitment to excellence in the field.",
+    name: "Riza",
+    designation: "IT Instructor",
+    company: "Zuitt Coding Bootcamp",
+    image:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXq3nFLGTs_KByA1WwlD1rW9N6G1bStpkXWEXvWuucinA=s88-w88-h88-c-k-no",
+  },
+  {
+    testimonial:
+      "Rafael is a hard working person, resiliet and always willing to go above and beyond to improve himself that would be beneficial as well to the company.",
+    name: "Ira P",
+    designation: "ICU Nurse",
+    company: "Surrey Memorial Hospital",
+    image:
+      "https://lh3.googleusercontent.com/a-/ALV-UjXCM5XocaF2mexfdH5kkPvAfeGS4oaklPNonyQFdP0INg=s58-p-k-rw-no",
+  },
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
