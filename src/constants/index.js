@@ -23,7 +23,6 @@ import {
   sushi,
   promptopia,
   capstoneproject,
-  yazaki,
   salesDashboard,
 } from "../assets";
 
@@ -173,7 +172,7 @@ const experiences = [
   {
     title: "Production operator",
     company_name: "Emi Yazaki",
-    icon: yazaki,
+
     iconBg: "#E6DEDD",
     date: "2013 - 2014",
     points: [
