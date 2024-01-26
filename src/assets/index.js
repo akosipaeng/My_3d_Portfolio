@@ -30,6 +30,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import taskus from "./company/taskus.png";
 import freelancework from "./company/freelancework.png";
+import yazaki from "./company/yazaki.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -37,6 +38,7 @@ import tripguide from "./tripguide.png";
 import sushi from "./sushi.png";
 import promptopia from "./promptopia.png";
 import capstoneproject from "./capstoneproject.png";
+import salesDashboard from "./salesDashboard.jpg";
 
 import webresearch from "./webresearch.png";
 import dataanalyst from "./dataanalyst.png";
@@ -90,4 +92,6 @@ export {
   sushi,
   promptopia,
   capstoneproject,
+  yazaki,
+  salesDashboard,
 };

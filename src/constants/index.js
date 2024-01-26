@@ -5,21 +5,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   webresearch,
   dataanalyst,
   dataentry,
@@ -28,13 +17,14 @@ import {
   contentmod,
   ecommerce,
   taskus,
-  freelancework,
   photoshop,
   tableau,
   excel,
   sushi,
   promptopia,
   capstoneproject,
+  yazaki,
+  salesDashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -145,14 +135,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Encoder",
+    title: "Data Analyst",
     company_name: "TaskUs",
     icon: taskus,
     iconBg: "#383E56",
-    date: "April 2018 - Present",
+    date: "April 2021",
     points: [
-      "Managing business location-related information on multiple directories.",
-      "Maintaining accurate business data information - Business hours, products and services, etc.",
+      "Conducted in-depth data analysis, identifying key business trends. ",
+      "Cleaned and processed large datasets, ensuring data integrity.",
+      "Created visualizations and reports for effective communication of insights.",
     ],
   },
   {
@@ -162,30 +153,31 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2020 - Present",
     points: [
-      "Filtering private information and the like.",
-      "Ensuring that the information displayed to the user is instructive and safe.",
+      "Moderated user-generated content, ensuring compliance with guidelines",
+      "Identified and addressed content issues promptly and effectively",
+      "Collaborated with cross-functional teams to enhance content moderation processes.",
     ],
   },
   {
-    title: "Wedding Website - RSVP",
-    company_name: "Freelance - Gig",
-    icon: freelancework,
+    title: "Data Entry Specialist",
+    company_name: "TaskUs",
+    icon: taskus,
     iconBg: "#383E56",
-    date: "March 2022",
+    date: "April 2018 - Present",
     points: [
-      "Create a visually appealing and user-friendly wedding website with a focus on the RSVP feature.",
-      "Implement a robust RSVP system allowing guests to easily confirm their attendance.",
+      "Entered and verified data with a focus on maintaining high accuracy levels.",
+      "Efficiently processed large volumes of data within established timelines",
+      "Collaborated with team members to ensure data consistency.",
     ],
   },
   {
-    title: "Wedding Invitation - Design",
-    company_name: "Freelance - Gig",
-    icon: freelancework,
+    title: "Production operator",
+    company_name: "Emi Yazaki",
+    icon: yazaki,
     iconBg: "#E6DEDD",
-    date: "Jan 2023",
+    date: "2013 - 2014",
     points: [
-      "Develop unique and visually stunning wedding invitation designs that align with the couple's vision and theme.",
-      "Use graphic design software and tools to create personalized and aesthetically pleasing invitations",
+      "Assembling products, maintaining workstations clean, cleaning equipment, tagging products and following safety guidelines.",
     ],
   },
 ];
@@ -209,14 +201,6 @@ const testimonials = [
     image:
       "https://lh3.googleusercontent.com/a-/ALV-UjXCM5XocaF2mexfdH5kkPvAfeGS4oaklPNonyQFdP0INg=s58-p-k-rw-no",
   },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
 ];
 
 const projects = [
@@ -265,27 +249,24 @@ const projects = [
     app_link: "https://project-promptopia-jsm.vercel.app/",
   },
   {
-    name: "Soap Online Store",
+    name: "Sales Dasboard",
     description:
-      "As the culmination of a web development boot camp, my capstone project showcases proficiency in React.js, frontend, and backend development, demonstrating a understanding of web development.",
+      "Visualize key sales metrics, track performance trends, and gain actionable intelligence at a glance. With interactive charts, graphs, and customizable filters, we can easily analyze sales data, identify opportunities, and make informed decisions. ",
     tags: [
       {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
+        name: "Power BI Developer",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Power BI Data Model",
         color: "pink-text-gradient",
       },
     ],
-    image: capstoneproject,
+    image: salesDashboard,
     source_code_link:
-      "https://gitlab.com/b282-vasquez/capstone/-/tree/master/vasquez-capstone-3/capstone-3-project",
-    app_link: "https://capstone-3-vasquez.vercel.app/",
+      "https://app.powerbi.com/view?r=eyJrIjoiM2E2MDkyZTEtMmQ4Yi00YmNhLWE4NDYtNmE0YTM1MjYyZjJmIiwidCI6Ijk1YjgxMmU5LWQ5MzYtNGFjYy05NjIzLWU1OGIzZTM5YmY3MSIsImMiOjEwfQ%3D%3D",
+    app_link:
+      "https://app.powerbi.com/view?r=eyJrIjoiM2E2MDkyZTEtMmQ4Yi00YmNhLWE4NDYtNmE0YTM1MjYyZjJmIiwidCI6Ijk1YjgxMmU5LWQ5MzYtNGFjYy05NjIzLWU1OGIzZTM5YmY3MSIsImMiOjEwfQ%3D%3D",
   },
 ];
 

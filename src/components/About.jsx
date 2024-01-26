@@ -44,12 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a dynamic web developer with hands-on experience, augmented by a
-        successful completion of a rigorous Bootcamp. Drawing from my background
-        as a virtual assistant, I bring adaptability, attention to detail, and
-        effective communication to web development projects. I am poised to
-        contribute my skills and virtual assistant expertise to innovative
-        endeavors.
+        I am a data analyst, data entry specialist, and web developer with
+        hands-on experience, augmented by a successful completion of a rigorous
+        Bootcamp. Drawing from my background as a virtual assistant, I bring
+        adaptability, attention to detail, and effective communication to web
+        development projects. I am poised to contribute my skills and virtual
+        assistant expertise to innovative endeavors.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
