@@ -44,12 +44,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a data analyst, data entry specialist, and web developer with
-        hands-on experience, augmented by a successful completion of a rigorous
-        Bootcamp. Drawing from my background as a virtual assistant, I bring
-        adaptability, attention to detail, and effective communication to web
-        development projects. I am poised to contribute my skills and virtual
-        assistant expertise to innovative endeavors.
+        Hi, <span className="text-[#915eff]">I'm Rafael,</span> a versatile
+        professional skilled in data analysis, entry, content moderation, and
+        web development. With a strong foundation and completion of a Web
+        Development Bootcamp, I bring adaptability, precision, and effective
+        communication to projects. As a dedicated continuous learner, I actively
+        seek out and acquire new skills to enhance my capabilities and stay at
+        the forefront of industry advancements.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
